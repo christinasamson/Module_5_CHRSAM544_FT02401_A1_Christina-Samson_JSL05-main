@@ -64,9 +64,8 @@ function generatePlaylist(guardians, songs) {
             const songDiv = document.createElement('div');
  
             songDiv.innerHTML = `<span class="song-title">${song.title}</span> by ${song.artist}`;
-            `<span class="song-titl"> ${song}</span>`
     
-        guardianDiv.appendChild(songDiv);
+            guardianDiv.appendChild(songDiv);
         });
     });
 }
